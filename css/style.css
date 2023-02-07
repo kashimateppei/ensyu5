@@ -1,0 +1,253 @@
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+
+}
+.header-logo {
+  width: 100%;
+}
+.header img {
+  width: 30%;
+}
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+  color: darkslategrey;
+}
+ul {
+  list-style: none;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.main {
+  position: relative;
+}
+.content-img {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+}
+.content-img img {
+  width: 60%;
+}
+.main-content {
+  font-family: 'Gorditas', cursive;
+  font-size: 20px;
+  color: purple;
+  width: 70%;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+}
+.font-color {
+  color: darkgrey;
+}
+.main-content2 {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+  font-weight: bold;
+  font-size: 10px;
+  color: rgb(165, 34, 165);
+}
+.font-color2 {
+  color: darkgrey;
+}
+.main-content3 {
+  position: absolute;
+  left: 350px;
+  top: 330px;
+  font-weight: bold;
+  color: darkgrey;
+}
+.fooder {
+  width: 55%;
+  margin-left: 25%;
+}
+.news-list {
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list .item a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #CCC;
+  padding: 20px 20px;
+}
+
+.news-list .item:first-child a {
+  border-top: 1px solid #CCC;
+}
+
+.news-list .item .date {
+  margin: 0;
+  min-width: 140px;
+  font-size: 16px;
+  color: #999;
+  padding: 0 20px 0 0;
+}
+
+.news-list .item .category {
+  margin: 0;
+  min-width: 140px;
+  padding: 0 20px 0 0;
+}
+
+.news-list .item .category span {
+  background: purple;
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 9999px;
+}
+
+.news-list .item .title {
+  margin: 0;
+  width: 100%;
+}
+
+.news-list .item a:hover .title {
+  color: #00F;
+}
+.title {
+  color: #999;
+}
+.fooder-item {
+  margin: 0;
+  font-weight: bold;
+  color: #999;
+}
+.news {
+  margin: 0 30px 0 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(250, 37, 72);
+  font-size: 5px;
+}
+.about {
+  background-color: #ebebeb;
+  padding: 10px 0;
+  margin-top: 100px;
+}
+.main-content4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+}
+.about__img img {
+  width: 100%;
+  background-color: #ebebeb;
+}
+.about__img {
+  width: 35%;
+  margin-right: 200px;
+  margin-top: 20px;
+}
+
+.About {
+  color: rgb(160, 39, 39);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 5px;
+  font-size: 5px;
+}
+.about__content {
+  margin: 20px 50px 0 200px;
+  color: rgb(148, 130, 130);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Technology {
+  text-align: center;
+  font-weight: bold;
+  color: #999;
+  margin-top: 0;
+}
+.service_title {
+  margin: 60px 150px 20px 150px
+}
+.service {
+  font-family: 'Gorditas',cursive;
+  color: rgb(250, 37, 72);
+  margin: 0;
+  font-size: 5px;
+}
+.service2 {
+  font-weight: bold;
+  color: #999;
+  margin: 0;
+}
+.service-main {
+  width: 100%;
+}
+.service-main1 {
+  background-color: rgb(241, 16, 148);
+  width: 40%;
+  height: 500px;
+  margin-left: 100px;
+  float: left;
+}
+.service_img {
+  width: 30%;
+  margin: 0 auto;
+}
+.service_img img {
+  width: 100%;
+}
+.education-title {
+  width: 15%;
+  margin: 0 auto;
+  font-weight: bold;
+  color: white;
+
+}
+.education-content {
+  margin-left: 80px;
+  color: white;
+  padding-bottom: 100px;
+}
+.service-main2 {
+  float: left;
+  background-color: rgba(146, 63, 224, 0.425);
+  display: flex;
+  height: 250px;
+  left: 710px;
+  width: 500px;
+}
+.service_img2 {
+  width: 30%;
+}
+
+.service_img2 img {
+  width: 100%;
+}
+.education-content2 {
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+.education-item {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 10px;
+}
+.service-main3 {
+  float: left;
+  background-color: rgba(65, 36, 92, 0.425);
+  display: flex;
+  height: 250px;
+}
