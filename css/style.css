@@ -226,6 +226,7 @@ ul {
   margin-left: 80px;
   color: white;
   padding-bottom: 100px;
+  width: 80%;
 }
 .service-main2 {
   grid-row: 1/2;
@@ -268,10 +269,18 @@ ul {
   position: relative;
 }
 .blog-img1 img {
-  width: 360px;
+  width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   margin-right: 30px;
+}
+.blog-img1 {
+  width: 20%;
+  padding-left: 10p;
+  margin-right: 30px;
+  border: solid 1px #efece8;
+  border-radius: 30px;
+  height: 400px;
 }
 
 .blog-item1 {
@@ -286,10 +295,18 @@ ul {
   padding: 10px 0 0 10px;
 }
 .blog-img2 img {
-  width: 360px;
+  width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   margin-right: 30px;
+}
+.blog-img2 {
+  width: 20%;
+  padding-left: 10p;
+  margin-right: 30px;
+  border: solid 1px #efece8;
+  border-radius: 30px;
+  height: 400px;
 }
 .blog-item2 {
   position: absolute;
@@ -303,10 +320,18 @@ ul {
   padding: 10px 0 0 10px;
 }
 .blog-img3 img {
-  width: 360px;
+  width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   margin-right: 30px;
+}
+.blog-img3 {
+  width: 20%;
+  padding-left: 10p;
+  margin-right: 30px;
+  border: solid 1px #efece8;
+  border-radius: 30px;
+  height: 400px;
 }
 .blog-item3 {
   position: absolute;
@@ -321,7 +346,6 @@ ul {
 }
 
 .blog-content {
-  width: 360px;
   text-align: center;
   color: #999;
   font-weight: bold;
@@ -334,12 +358,12 @@ ul {
 .blog-date {
   display: inline-block;
   color: #999;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .blog-name {
   display: inline-block;
   color: #999;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .blog{
@@ -360,8 +384,8 @@ ul {
   height: 50px;
   border-radius: 30px;
   border: solid 5px purple;
-  margin-left: -300px;
-  padding: 30px 25px 10px 30px;
+  margin: 100px -300px;
+  padding: 20px 25px 10px 30px;
   font-weight: bold;
   text-align: center;
   color: purple;
@@ -374,13 +398,13 @@ ul {
 .company {
   font-family: 'Gorditas', cursive;
   color: rgb(250, 37, 72);
-  margin: 50px 30px 20px 250px;
+  margin: 200px 30px 20px 250px;
   font-size: 10px;
 }
 
 .company2 {
   color: #999;
-  margin: 0 30px 20px 250px;
+  margin: 10px 30px 20px 250px;
   font-size: 30px;
   font-weight: bold;
   }
@@ -406,10 +430,10 @@ td {
   display: flex;
   width: 100%;
   padding-top: 100px;
-  position: relative;
 }
 .adoption-img {
   width: 50%;
+  position: relative;
 }
 .adoption-img img {
   width: 100%;
@@ -417,24 +441,28 @@ td {
 .adoption-information {
   position: absolute;
   top: 45%;
-  left: 27%;
-  font-size: 40px;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
   color: white;
   font-weight: bold;
+  width: 100%;
 }
 .interview-img {
   width: 50%;
+  position: relative;
 }
 .interview-img img {
   width: 100%;
 }
 .interview {
   position: absolute;
-  top: 45%;
-  left: 57%;
-  font-size: 40px;
+  top: 35%;
+  left: 40%;
+  font-size: 30px;
   color: white;
   font-weight: bold;
+  width: 100%;
 }
 
 .information-content {
@@ -463,6 +491,7 @@ td {
   text-decoration: none;
   border-radius: 30px;
   margin: 50px auto;
+  box-shadow: -2px 8px #000;
 }
 .information-button::before {
   content: "";
