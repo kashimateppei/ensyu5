@@ -417,7 +417,7 @@ td {
 .adoption-information {
   position: absolute;
   top: 45%;
-  left: 30%;
+  left: 27%;
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -431,7 +431,7 @@ td {
 .interview {
   position: absolute;
   top: 45%;
-  left: 60%;
+  left: 57%;
   font-size: 40px;
   color: white;
   font-weight: bold;
@@ -444,9 +444,11 @@ td {
   text-align: center;
 }
 .information-item1 {
-  width: 5%;
+  width: 1%;
   margin: 0 auto;
   border-left: solid 3px;
+  padding: 10px;
+  height: 10px;
 }
 .information-button {
   position: relative;
@@ -466,7 +468,7 @@ td {
   content: "";
   position: absolute;
   top: 50%;
-  right: 15px;
+  left: 30px;
   background: url(../img/mailicon.svg) no-repeat;
   background-size: cover;
   width: 30px;
@@ -478,4 +480,6 @@ small {
   align-items: center;
   justify-content: center;
   color: #999;
+  background-color: #ebebeb;
+  height: 50px;
 }
