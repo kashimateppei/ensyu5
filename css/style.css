@@ -40,22 +40,22 @@ ul {
 }
 .main-content {
   font-family: 'Gorditas', cursive;
-  font-size: 20px;
+  font-size: 50px;
   color: purple;
   width: 60%;
   position: absolute;
   top: 50px;
-  left: 350px;
+  left: 200px;
 }
 .font-color {
   color: darkgrey;
 }
 .main-content2 {
   position: absolute;
-  left: 350px;
-  top: 300px;
+  left: 200px;
+  top: 250px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   color: rgb(165, 34, 165);
 }
 .font-color2 {
@@ -63,10 +63,11 @@ ul {
 }
 .main-content3 {
   position: absolute;
-  left: 350px;
-  top: 330px;
+  left: 200px;
+  top: 280px;
   font-weight: bold;
   color: darkgrey;
+  font-size: 20px;
 }
 .fooder {
   width: 55%;
@@ -394,7 +395,7 @@ ul {
   height: 50px;
   border-radius: 30px;
   border: solid 5px purple;
-  margin: 200px -300px;
+  margin: 200px -250px;
   padding: 20px 25px 10px 30px;
   font-weight: bold;
   text-align: center;
@@ -408,20 +409,21 @@ ul {
 .company {
   font-family: 'Gorditas', cursive;
   color: rgb(250, 37, 72);
-  margin: 200px 30px 20px 250px;
+  margin: 200px 30px 20px 150px;
   font-size: 10px;
 }
 
 .company2 {
   color: #999;
-  margin: 10px 30px 20px 250px;
+  margin: 10px 30px 20px 150px;
   font-size: 30px;
   font-weight: bold;
   }
 
 table {
-  border: 3px solid black;
+  border: 1px solid rgb(223, 209, 209);
   border-collapse: collapse;
+  margin: 100px auto;
 }
 
 
@@ -431,14 +433,16 @@ th {
   width: 230px;
   height: 50px;
   color: #302f2f;
-  border: 1px solid black;
+  border: 1px solid rgb(165 155 155);
+  line-height: 50px;
+  align-items: center;
 }
 td {
   width: 500px;
   height: 50px;
   color: #999;
   font-weight: bold;
-  border: 1px solid black;
+  border: 1px solid rgb(165 155 155);
 }
 
 .grid-main {
@@ -487,10 +491,11 @@ td {
   color: #999;
   font-weight: bold;
   text-align: center;
+  padding-top: 30px;
 }
 .information-item1 {
   width: 1%;
-  margin: 0 auto;
+  margin: 20px auto;
   border-left: solid 3px;
   padding: 10px;
   height: 10px;
@@ -509,6 +514,8 @@ td {
   border-radius: 30px;
   margin: 50px auto;
   box-shadow: -2px 8px #000;
+  height: 30px;
+  line-height: 30px;
 }
 .information-button::before {
   content: "";
