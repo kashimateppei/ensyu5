@@ -69,9 +69,10 @@ ul {
   color: darkgrey;
   font-size: 20px;
 }
-.fooder {
-  width: 55%;
-  margin-left: 25%;
+fooder {
+  width: 70%;
+  display: block;
+  margin: 0 auto;  
 }
 .news-list {
   list-style: none outside;
@@ -90,8 +91,7 @@ ul {
 }
 
 .news-list .item:first-child a {
-  border-top: 1px solid #CCC;
-  width: 50%;
+  border-top: 1px solid #CCC:
   margin-left: 350px;
 }
 
@@ -132,13 +132,13 @@ ul {
   color: #999;
 }
 .fooder-item {
-  margin: 0 30px 20px 330px;
+  margin: 0 30px 20px 5px;
   font-weight: bold;
   color: #999;
   font-size: 30px;
 }
 .news {
-  margin: 50px 30px 20px 330px;
+  margin: 50px 30px 20px 5px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(250, 37, 72);
   font-size: 10px;
@@ -187,13 +187,13 @@ ul {
 .service {
   font-family: 'Gorditas',cursive;
   color: rgb(250, 37, 72);
-  margin: 50px 30px 20px 200px;
+  margin: 50px 30px 20px 150px;
   font-size: 5px;
 }
 .service2 {
   font-weight: bold;
   color: #999;
-  margin: 0 30px 20px 200px;
+  margin: 0 30px 20px 150px;
   font-size: 30px;
 }
 .grid {
@@ -220,7 +220,7 @@ ul {
   margin: 0 auto;
   font-weight: bold;
   color: white;
-  margin-top: -250px;
+  margin-top: -220px;
 
 }
 .education-content {
@@ -251,8 +251,8 @@ ul {
   margin-top: 60px;
 }
 .education-content3 {
-  margin-top: -140px;
-  margin-left: 150px;
+  margin-top: 60px;
+  margin-left: 65px;
   color: white;
   font-weight: bold;
 }
@@ -263,17 +263,28 @@ ul {
   color: white;
   font-weight: bold;
 }
+
+.education-item2 {
+  font-size: 12px;
+  font-weight: lighter;
+  margin: 10px 0 10px 65px;
+  color: white;
+  font-weight: bold;
+}
+
 .education-item {
   font-size: 12px;
   font-weight: lighter;
-  margin: 10px 0 10px 150px;
+  margin: 10px 0 10px 175px;
   color: white;
   font-weight: bold;
 }
 .service-main3 {
   grid-row: 2/2;
   background-color: rgba(65, 36, 92, 0.425);
+  display: flex
 }
+
 .blog-img {
   display: flex;
   justify-content: center;
@@ -286,7 +297,7 @@ ul {
   margin-right: 30px;
 }
 .blog-img1 {
-  width: 20%;
+  width: 25%;
   padding-left: 10p;
   margin-right: 30px;
   border: solid 1px #efece8;
@@ -302,7 +313,7 @@ ul {
   border-top-left-radius: 30px;
   margin: 0;
   width: 70px;
-  height: 50px;
+  height: 30px;
   padding: 10px 0 0 10px;
 }
 .blog-img2 img {
@@ -312,7 +323,7 @@ ul {
   margin-right: 30px;
 }
 .blog-img2 {
-  width: 20%;
+  width: 25%;
   padding-left: 10p;
   margin-right: 30px;
   border: solid 1px #efece8;
@@ -327,7 +338,7 @@ ul {
   border-top-left-radius: 30px;
   margin: 0;
   width: 70px;
-  height: 50px;
+  height: 30px;
   padding: 10px 0 0 10px;
 }
 .blog-img3 img {
@@ -337,7 +348,7 @@ ul {
   margin-right: 30px;
 }
 .blog-img3 {
-  width: 20%;
+  width: 25%;
   padding-left: 10p;
   margin-right: 30px;
   border: solid 1px #efece8;
@@ -352,53 +363,60 @@ ul {
   border-top-left-radius: 30px;
   margin: 0;
   width: 70px;
-  height: 50px;
+  height: 30px;
   padding: 10px 0 0 10px;
 }
 
 .blog-content {
-  text-align: center;
+  font-size: 17px;
   color: #999;
   font-weight: bold;
+  margin: 25px 10px 25px 10px;
+  line-height: 25px;
 }
 .blog-content2 {
   text-align: right;
   width: 360px;
 }
 
+.blog-blog {
+  display: flex;
+  text-align: center;
+}
 .blog-date {
   display: inline-block;
   color: #999;
-  margin-left: 30px;
 }
 .blog-name {
   display: inline-block;
   color: #999;
-  margin-left: 60px;
 }
 
 .blog{
   font-family: 'Gorditas', cursive;
   color: rgb(250, 37, 72);
-  margin: 50px 30px 20px 200px;
+  margin: 50px 30px 20px 130px;
   font-size: 10px;
 }
 
 .blog2 {
   color: #999;
-  margin: 0 30px 20px 200px;
+  margin: 0 30px 20px 130px;
   font-size: 30px;
   font-weight: bold;
 }
+
+.button-button {
+  margin:150px 200px 150px -300px;
+}
+
 .blog-button {
   width: 200px;
   height: 50px;
   border-radius: 30px;
   border: solid 5px purple;
-  margin: 200px -250px;
   padding: 20px 25px 10px 30px;
   font-weight: bold;
-  text-align: center;
   color: purple;
   font-size: 25px;
 }
@@ -409,13 +427,13 @@ ul {
 .company {
   font-family: 'Gorditas', cursive;
   color: rgb(250, 37, 72);
-  margin: 200px 30px 20px 150px;
+  margin: 200px 50px 0 200px;
   font-size: 10px;
 }
 
 .company2 {
   color: #999;
-  margin: 10px 30px 20px 150px;
+  margin: 20px 0 0 200px;
   font-size: 30px;
   font-weight: bold;
   }
@@ -423,7 +441,7 @@ ul {
 table {
   border: 1px solid rgb(223, 209, 209);
   border-collapse: collapse;
-  margin: 100px auto;
+  margin: 20px auto 50px;
 }
 
 
@@ -534,5 +552,5 @@ small {
   justify-content: center;
   color: #999;
   background-color: #ebebeb;
-  height: 50px;
+  height: 100px;
 }
