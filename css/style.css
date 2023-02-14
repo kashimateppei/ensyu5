@@ -88,11 +88,12 @@ fooder {
   color: #333;
   border-bottom: 1px solid #CCC;
   padding: 20px 20px;
+  width: 600px;
 }
 
 .news-list .item:first-child a {
   border-top: 1px solid #CCC:
-  margin-left: 350px;
+  margin:0 auto;
 }
 
 .news-list .item .date {
@@ -123,6 +124,7 @@ fooder {
 .news-list .item .title {
   margin: 0;
   width: 100%;
+  white-space: nowrap;
 }
 
 .news-list .item a:hover .title {
