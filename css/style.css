@@ -70,7 +70,6 @@ ul {
   font-size: 20px;
 }
 fooder {
-  width: 70%;
   display: block;
   margin: 0 auto;  
 }
@@ -88,7 +87,8 @@ fooder {
   color: #333;
   border-bottom: 1px solid #CCC;
   padding: 20px 20px;
-  width: 600px;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .news-list .item:first-child a {
@@ -127,6 +127,10 @@ fooder {
   white-space: nowrap;
 }
 
+.fooder-title {
+  width: 60%;
+}
+
 .news-list .item a:hover .title {
   color: #00F;
 }
@@ -134,13 +138,13 @@ fooder {
   color: #999;
 }
 .fooder-item {
-  margin: 0 30px 20px 5px;
+  margin: 0 30px 20px 150px;
   font-weight: bold;
   color: #999;
   font-size: 30px;
 }
 .news {
-  margin: 50px 30px 20px 5px;
+  margin: 50px 30px 20px 150px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(250, 37, 72);
   font-size: 10px;
@@ -156,9 +160,9 @@ fooder {
   background-color: #ebebeb;
 }
 .about__img img {
-  width: 100%;
+  width: 90%;
   background-color: #ebebeb;
-  margin-bottom: 20px;
+  margin:0 0 20px 100px;
 }
 .about__img {
   width: 35%;
@@ -444,19 +448,18 @@ fooder {
   text-align: center;
   line-height: 70px;
 }
-  
-}
 
-.company {
-  font-family: 'Gorditas', cursive;
+.company1 {
   color: rgb(250, 37, 72);
-  margin: 200px 50px 0 200px;
-  font-size: 10px;
+  margin: 10px 50px 0 150px;
+  font-size: 15px;
+  font-family: 'Gorditas', cursive;
+  font-family: 'Shippori Mincho', serif;
 }
 
 .company2 {
   color: #999;
-  margin: 20px 0 0 200px;
+  margin: 20px 0 0 150px;
   font-size: 30px;
   font-weight: bold;
   }
