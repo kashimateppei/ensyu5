@@ -128,7 +128,8 @@ fooder {
 }
 
 .fooder-title {
-  width: 60%;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .news-list .item a:hover .title {
@@ -138,16 +139,17 @@ fooder {
   color: #999;
 }
 .fooder-item {
-  margin: 0 30px 20px 150px;
+  text-align: left;
   font-weight: bold;
   color: #999;
   font-size: 30px;
 }
 .news {
-  margin: 50px 30px 20px 150px;
+  text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(250, 37, 72);
-  font-size: 10px;
+  font-size: 15px;
+  margin: 20px 0;
 }
 .about {
   background-color: #ebebeb;
@@ -202,21 +204,36 @@ fooder {
   margin-top: 0;
   font-size: 30px;
 }
-.service_title {
+.
+
+ce_title {
   margin: 60px 150px 20px 180px
 }
+
 .service {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.service1 {
   font-family: 'Gorditas',cursive;
   color: rgb(250, 37, 72);
-  margin: 50px 30px 20px 150px;
-  font-size: 5px;
+  margin:20px 0;
+  font-size: 15px;
+  text-align: left;
 }
 .service2 {
   font-weight: bold;
   color: #999;
-  margin: 0 30px 20px 150px;
   font-size: 30px;
+  text-align: left;
+  margin-bottom: 30px;
 }
+
+.grid-main {
+
+}
+
 .grid {
   display: grid;
   grid-template-rows: 200px 200px;
@@ -310,11 +327,15 @@ fooder {
   width: 100%;
 }
 
+.blog {
+  margin: 0 auto;
+  width: 85%;
+}
+
 .blog-img-wrapper {
   display: flex;
   justify-content: center;
   position: relative;
-  padding-left: 20px;
 }
 
 .blog-img1 img {
@@ -394,20 +415,29 @@ fooder {
 }
 
 .blog-content {
-  font-size: 17px;
+  text-align: center;
+}
+
+.blog-content1 {
+  font-size: 15px;
   color: #999;
   font-weight: bold;
-  margin: 25px 10px 25px 10px;
+  margin: 25px 0 0 0;
   line-height: 25px;
+  white-space: nowrap;
 }
 .blog-content2 {
-  text-align: right;
-  width: 360px;
+  font-size: 15px;
+  color: #999;
+  font-weight: bold;
+  margin: 5px 10px 25px -22px;
+  line-height: 25px;
+  white-space: nowrap;
 }
 
 .blog-blog {
   display: flex;
-  text-align: center;
+  justify-content: space-between;
 }
 .blog-date {
   display: inline-block;
@@ -418,18 +448,20 @@ fooder {
   color: #999;
 }
 
-.blog{
+.blog1{
   font-family: 'Gorditas', cursive;
   color: rgb(250, 37, 72);
-  margin: 50px 30px 20px 130px;
-  font-size: 10px;
+  font-size: 15px;
+  text-align: left;
+  margin: 20px 0;
 }
 
 .blog2 {
   color: #999;
-  margin: 0 30px 20px 130px;
+  text-align: left;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .button-button {
@@ -449,19 +481,25 @@ fooder {
   line-height: 70px;
 }
 
+.company {
+  width: 730px;
+  margin: 0 auto;
+}
+
 .company1 {
   color: rgb(250, 37, 72);
-  margin: 10px 50px 0 150px;
   font-size: 15px;
   font-family: 'Gorditas', cursive;
   font-family: 'Shippori Mincho', serif;
+  text-align: left;
+  margin: 20px 0;
 }
 
 .company2 {
   color: #999;
-  margin: 20px 0 0 150px;
   font-size: 30px;
   font-weight: bold;
+  text-align: left;
   }
 
 table {
@@ -489,7 +527,7 @@ td {
   border: 1px solid rgb(165 155 155);
 }
 
-.grid-main {
+.grid-main2 {
   display: flex;
   width: 100%;
 }
