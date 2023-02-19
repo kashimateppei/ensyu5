@@ -158,7 +158,7 @@ fooder {
 }
 .main-content4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #ebebeb;
 }
 .about__img img {
@@ -183,18 +183,18 @@ fooder {
   color: rgb(148, 130, 130);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
+
 }
 
 .about-item1 {
   line-height: 25px;
-  padding: 20px 0 20px 50px;
-  font-weight: bold;
+  margin-top: 15px;
 }
 
 .about-item2 {
   line-height: 25px;
-  padding: 20px 0 20px 50px;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 .Technology {
@@ -206,7 +206,7 @@ fooder {
 }
 .
 
-ce_title {
+.service_title {
   margin: 60px 150px 20px 180px
 }
 
@@ -415,7 +415,8 @@ ce_title {
 }
 
 .blog-content {
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .blog-content1 {
@@ -430,14 +431,15 @@ ce_title {
   font-size: 15px;
   color: #999;
   font-weight: bold;
-  margin: 5px 10px 25px -22px;
   line-height: 25px;
   white-space: nowrap;
 }
 
 .blog-blog {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 70px;
+  font-weight: bold;
 }
 .blog-date {
   display: inline-block;
